@@ -28,7 +28,7 @@ This is the [Machine Learning Coursera](https://www.coursera.org/learn/machine-l
 
 ```sudo xcode-select --install```
 
-3. Install Homebrew 
+2. Install Homebrew 
 
 ```/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)``` 
 
