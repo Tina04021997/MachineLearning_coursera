@@ -34,7 +34,8 @@ else
     z = zeros(length(u), length(v));
     % Evaluate z = theta*x over the grid
     % mapFeature(): Feature mapping function to polynomial features
-    % MAPFEATURE(X1, X2) maps the two input features to quadratic features. Returns a new feature array with more features, comprising of X1, X2, X1.^2, X2.^2, X1*X2, X1*X2.^2, etc..
+    % MAPFEATURE(X1, X2) maps the two input features to quadratic features. 
+    % Returns a new feature array with more features, comprising of X1, X2, X1.^2, X2.^2, X1*X2, X1*X2.^2, etc..
     for i = 1:length(u)
         for j = 1:length(v)
             z(i,j) = mapFeature(u(i), v(j))*theta;
