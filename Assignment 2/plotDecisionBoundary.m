@@ -33,6 +33,7 @@ else
 
     z = zeros(length(u), length(v));
     % Evaluate z = theta*x over the grid
+    % mapFeature(): Feature mapping function to polynomial features
     for i = 1:length(u)
         for j = 1:length(v)
             z(i,j) = mapFeature(u(i), v(j))*theta;
