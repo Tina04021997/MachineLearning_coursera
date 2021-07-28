@@ -27,6 +27,7 @@ if size(X, 2) <= 3
     axis([30, 100, 30, 100])
 else
     % Here is the grid range
+    % Create a vector of 50 evenly spaced points in the interval [-1,1.5]
     u = linspace(-1, 1.5, 50);
     v = linspace(-1, 1.5, 50);
 
